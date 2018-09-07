@@ -7,5 +7,8 @@
     "@reframe/react-native-web": "^0.1.14",
     "hapi": "^17.3.1",
     "react": "^16.3.2"
+  },
+  "resolutions": {
+      "@reframe/react-native-web/**/react-dom": "16.1.1"
   }
 }

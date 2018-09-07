@@ -172,6 +172,20 @@
     reassert "^1.1.12"
     webpack-ssr "0.1.14"
 
+"@reframe/cli@^0.1.14":
+  version "0.1.14"
+  resolved "https://registry.yarnpkg.com/@reframe/cli/-/cli-0.1.14.tgz#58f902595aee73ea6ca11362b036f7b5e81da7c4"
+  dependencies:
+    "@brillout/cli-theme" "0.1.14"
+    "@brillout/format-text" "^0.1.0"
+    "@brillout/get-user-dir" "^0.2.1"
+    "@brillout/reconfig" "0.1.14"
+    "@reframe/init" "0.1.14"
+    "@reframe/project-files" "0.1.14"
+    "@reframe/utils" "0.1.14"
+    commander "2.14.1"
+    reassert "^1.1.12"
+
 "@reframe/deploy-git@0.1.14":
   version "0.1.14"
   resolved "https://registry.yarnpkg.com/@reframe/deploy-git/-/deploy-git-0.1.14.tgz#42a9c5bcfd85a4e28ffb99ce4d641a005e22cbc7"
@@ -206,6 +220,14 @@
     "@brillout/reconfig" "0.1.14"
     hapi "^17.3.1"
     reassert "^1.1.12"
+
+"@reframe/init@0.1.14":
+  version "0.1.14"
+  resolved "https://registry.yarnpkg.com/@reframe/init/-/init-0.1.14.tgz#f7f70cc49f43611d02806f079f4a910e833da33d"
+  dependencies:
+    "@brillout/cli-theme" "0.1.14"
+    "@reframe/utils" "0.1.14"
+    fs-extra "^6.0.1"
 
 "@reframe/path-to-regexp@0.1.14":
   version "0.1.14"
@@ -1830,6 +1852,10 @@ colormin@^1.0.5:
 colors@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/colors/-/colors-1.1.2.tgz#168a4701756b6a7f51a12ce0c97bfa28c084ed63"
+
+commander@2.14.1:
+  version "2.14.1"
+  resolved "http://registry.npmjs.org/commander/-/commander-2.14.1.tgz#2235123e37af8ca3c65df45b026dbd357b01b9aa"
 
 commander@~2.13.0:
   version "2.13.0"

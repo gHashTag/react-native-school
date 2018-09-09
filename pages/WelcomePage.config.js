@@ -1,6 +1,7 @@
 import React from 'react'
 import { StyleSheet, Text, View, Image } from 'react-native'
-import logo from '../images/ReactNative.png'
+//import logo from '../images/ReactNative.png'
+import logo from '../images/youtube.png'
 
 const Welcome = () => (
   <View>
@@ -11,7 +12,7 @@ const Welcome = () => (
       Разработка мобильных приложений под iOS и Android
     </Text>
     <Image source={logo} style={{width: 400, height: 400}} />
-    <Image source={{uri: 'https://facebook.github.io/react/logo-og.png'}} style={{width: 400, height: 400}} />
+    <Image source={{uri: 'https://reactjs.org/logo-og.png'}} style={{width: 400, height: 400}} />
   </View>
 )
 

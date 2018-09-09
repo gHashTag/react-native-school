@@ -1,18 +1,21 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image } from 'react-native'
+import logo from '../images/ReactNative.png'
 
 const Welcome = () => (
-  <div>
-    <div style={{margin: 'auto', maxWidth: 500}}>
-      <h2 style={{fontWeight: 'normal'}}>
-        Welcome to Reframe
-      </h2>
-      <Text style={{ fontSize: 80, textAlign: 'right' }} >
-        Home 
-      </Text>
-    </div>
-  </div>
+  <View>
+    <Text style={{ fontSize: 74 }} >
+      Уроки React Native 
+    </Text>
+    <Text style={{ fontSize: 27 }} >
+      Разработка мобильных приложений под iOS и Android
+    </Text>
+    <Image source={logo} style={{width: 400, height: 400}} />
+    <Image source={{uri: 'https://facebook.github.io/react/logo-og.png'}} style={{width: 400, height: 400}} />
+  </View>
 )
+
+
 
 const WelcomePage = {
     route: '/',
